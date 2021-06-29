@@ -4,9 +4,7 @@ body{
 }
 section{
     height: 500px;
-    
-    padding-bottom: 90px;
-
+    padding-bottom: 250px;
 }
 h1{
     font-size: 50px;
