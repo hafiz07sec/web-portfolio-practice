@@ -4,7 +4,8 @@ body{
 }
 section{
     height: 500px;
-    padding-bottom: 250px;
+    padding-bottom: 150px;
+    
 }
 h1{
     font-size: 50px;
@@ -20,8 +21,7 @@ p{
 
 
 .top-banner{
-    background-image: url("images/top-banner.png");
-    background-repeat: no-repeat;
+   background-color: white;
     
 }
 
@@ -36,30 +36,67 @@ p{
     padding-left: 2%;
     margin-left: 5%;
 }
+
+.quarter-width{
+    width: 25%;
+    float: left;
+    padding: 2%;
+    margin: 2%;
+    box-shadow: 10px 10px 40px gray ;
+    border-radius: 8px;
+    height: 75%;
+    
+}
 .half-width img{
+    width: 100%;
+    padding-left: 2%;
+    margin-left: 5%;
+}
+.quarter-width img{
     width: 100%;
 }
 
+.quarter-width p{
+    text-align: justify;
+}
 .dream-area{
-    background-image: url("images/dream-bg.png");
-    background-repeat: no-repeat;
-    background-position: right;
+    background-color: white;
+
+}
+.dream-area p{
+    margin-right: 50px;
 }
 
 .experience-area{
-    background-image: url("images/exp-bg.png");
-    background-repeat: no-repeat;
-    background-position: left;
+   
+    background-color: E5E5E5;
+    
 }
-
-.single-experience{
-    box-shadow: 10px 10px 40px gray;
-    border-radius: 10px;
+.footer-area{
     background-color: white;
-    height: 90%;
-    width: 40%;
-    padding: 0px 15px;
 }
+.footer-area img{
+    width: 70%;
+    position: center;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.work-inquiry {
+    position: absolute;
+    bottom: 90px;
+    left: 300px;
+    font-size: xx-large;
+  }
+  .btn-on-img{
+    position: absolute;
+    bottom: 100px;
+    right: 300px;
+   
+  }
+
 .link-button{
     text-decoration:none;
     background-image: linear-gradient(45deg, lightSalmon, tomato);
@@ -68,25 +105,35 @@ p{
     color: white;
     font-weight: 700px;
 }
-
-#full-stack{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, lightSalmon, tomato);
-    border-image-slice: 1;
+nav{
+    padding-bottom: 50px;
+}
+.navigation-bar a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ce4f4f;
+    display: inline;
+    float: right;
+    
 }
 
-#babyweb{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, rgb(122, 184, 255), rgb(71, 99, 255));
-    border-image-slice: 1;
-}
-
-#exp{
-    margin: 90px;
-}
 
 footer p {
     
     font-size: 12px;
     text-align: center;
 }
+#stay-connected img{
+    width: 40px;
+    height: 50px;
+
+    
+}
+#stay-connected{
+    text-align: center;
+    
+}
+
+
+  
